@@ -1,0 +1,9 @@
+{% load staticfiles %}
+{% block content %}
+    {% for news in object_list %}
+        {{news.title}}
+        {{news.url}}
+        {{news.pub_date}}
+        {{news.trend}}
+    {% endfor %}
+{% endblock content %}

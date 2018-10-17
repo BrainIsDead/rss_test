@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 feedparser = "*"
 django = "*"
+python-dateutil = "*"
 
 [dev-packages]
 
