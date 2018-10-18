@@ -1,9 +1,10 @@
 {% load staticfiles %}
 {% block content %}
     {% for news in object_list %}
-        {{news.title}}
-        {{news.url}}
-        {{news.pub_date}}
-        {{news.trend}}
+        <p><h3>{{news.title}}</h3></p>
+        <p>Publication date:{{news.pub_date}}</p>
+        <p><a href="{{news.link}}">Source</a></p>
+        <p><h5>Google Trend:{{news.trend}}</h5></p>
+        <hr/>
     {% endfor %}
 {% endblock content %}
