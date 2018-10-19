@@ -10,6 +10,7 @@ pipenv
 ##Get Started
 
 For getting started project install Python 3.7 and pipenv (using pip)
+
 Clone the project. In the project directory(with Pipfile) run "pipenv install--dev" veinve will be created
 and all needed packages('feedparser', 'django', 'python-dateutil') will be installed in venv.
 
